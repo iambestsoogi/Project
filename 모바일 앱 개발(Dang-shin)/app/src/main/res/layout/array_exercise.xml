@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    >
+    <resources>
+        <string-array name="array_exercise_1">
+            <item> 걷기</item>
+        </string-array>
+        <string-array name="array_exercise_2">
+            <item> 자전거</item>
+            <item> 산악 자전거</item>
+            <item> 실내 자전거</item>
+        </string-array>
+    </resources>
+
+</LinearLayout>

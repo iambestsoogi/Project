@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".DangMainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <!--    소메뉴 들어가는 버튼-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/menu_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/menu_btn_left"
+                    android:layout_marginTop="@dimen/menu_btn_top"
+                    android:background="#00FF0000"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/tkdqud"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="59dp"
+                    android:layout_marginTop="5dp"
+                    android:text="당뇨크루"
+                    android:textSize="40dp" />
+            </FrameLayout>
+
+            <!--    액티비티에서 날짜 기입-->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/main_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/date_margin_right"
+                    android:text="YYYY.MM.DD"
+                    android:textAlignment="viewEnd"
+                    android:textSize="20dp" />
+            </FrameLayout>
+
+            <!--            혈당 운동 음식 버튼-->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <!--                        혈당 아이콘 버튼-->
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+                            <ImageButton
+                                android:id="@+id/showing_glucose"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_marginLeft="@dimen/click_button_left"
+                                android:layout_weight="1"
+                                android:background="@drawable/ellipse7"
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                            <ImageView
+                                android:layout_width="42dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/tear_left"
+                                android:layout_marginTop="@dimen/tear_top"
+                                android:background="@drawable/tear1" />
+                        </RelativeLayout>
+                        <!--                        운동 아이콘 버튼-->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <ImageButton
+                                android:id="@+id/showing_exercise"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/ellipse7"
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/health_left"
+                                android:layout_marginTop="@dimen/health_top"
+                                android:background="@drawable/health" />
+                        </RelativeLayout>
+
+                        <!--                        음식 아이콘 버튼-->
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/click_button_right"
+                            android:gravity="center">
+
+                            <ImageButton
+                                android:id="@+id/showing_food"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:background="@drawable/ellipse7"
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/food_left_1"
+                                android:layout_marginTop="@dimen/food_top_1"
+                                android:background="@drawable/food" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/food_left_2"
+                                android:layout_marginTop="@dimen/food_top_2"
+                                android:background="@drawable/food1" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/food_left_3"
+                                android:layout_marginTop="@dimen/food_top_3"
+                                android:background="@drawable/food2" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/food_left_4"
+                                android:layout_marginTop="@dimen/food_top_4"
+                                android:background="@drawable/food3" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/food_left_5"
+                                android:layout_marginTop="@dimen/food_top_5"
+                                android:background="@drawable/food4" />
+                        </RelativeLayout>
+                    </TableRow>
+                </TableLayout>
+                <!--    여기서부터 클릭하면 진행하는 과정 / 화면 전환-->
+            </FrameLayout>
+
+            <!--            이미지뷰 밑에 이름 넣어주기-->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/name_of_blood_left"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="혈당"
+                            android:textSize="35dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="운동"
+                            android:textSize="38dp"
+                            android:layout_weight="1"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="@dimen/name_of_food_right"
+                            android:text="음식"
+                            android:textSize="38dp"
+                            android:layout_weight="1"/>
+                    </TableRow>
+                </TableLayout>
+            </FrameLayout>
+
+            <!--            혈당 프레임-->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/rectangle4" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="@dimen/blood_left"
+                    android:layout_marginTop="@dimen/blood_top"
+                    android:background="@drawable/tear1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/blood_text_left"
+                    android:layout_marginTop="@dimen/blood_text_top"
+                    android:text="혈당"
+                    android:textColor="#000000"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/blood_text_mini_left"
+                    android:layout_marginTop="@dimen/blood_text_mini_top"
+                    android:text="저녁 식후"
+                    android:textColor="#888888"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/number_blood_top"
+                    android:gravity="left"
+                    >
+                    <TextView
+                        android:id="@+id/number_blood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/number_blood_left"
+                        android:layout_marginRight="@dimen/number_blood_right"
+                        android:text="입력 없음"
+                        android:textSize="48dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mg/dL"
+                        android:textColor="#000000"
+                        android:textSize="35dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <!--            운동 프레임-->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="560dp"
+                    android:background="@drawable/rectangle18"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/exercise_left"
+                    android:layout_marginTop="@dimen/exercise_top"
+                    android:background="@drawable/health" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/exercise_text_left"
+                    android:layout_marginTop="@dimen/exercise_text_top"
+                    android:text="운동"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <!--            운동 걸음수 박스-->
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/exercise_first_box_left"
+                    android:layout_marginTop="@dimen/exercise_first_box_top"
+                    android:layout_marginRight="@dimen/exercise_first_box_right"
+                    android:background="@drawable/rectangle16" />
+
+                <!--                운동 걸음 수-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/exercise_walk_number_top">
+                    <TextView
+                        android:id="@+id/number_exercise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/exercise_number_right"
+                        android:text="입력 없음"
+                        android:textSize="50dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="/"
+                        android:layout_marginRight="@dimen/exercise_number_right"
+                        android:textSize="50dp"
+                        android:textColor="#000000"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/exercise_5000_top"
+                        android:text="5000"
+                        android:textColor="#000000"
+                        android:textSize="35dp"
+                        android:id="@+id/exercise_goal"/>
+                </LinearLayout>
+
+                <!--                운동 걸음 수 당 칼로리 소모량-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/exercise_walking_top"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/exercise_walking_left"
+                        android:text="걸음수"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/number_walk_kcal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/exercise_kcal_number_left"
+                        android:layout_marginRight="@dimen/exercise_kcal_number_right"
+                        android:text="0"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/exercise_kcal_right"
+                        android:text="kcal 소모"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+
+                <!--            운동 시간 및 목록 리스트-->
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/exercise_list_left"
+                    android:layout_marginTop="@dimen/exercise_list_top"
+                    android:layout_marginRight="@dimen/exercise_list_right"
+                    android:background="@drawable/rectangle17" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/exercise_list_time_top"
+                    android:text="총 운동시간     분"
+                    android:textSize="33dp" />
+
+                <TextView
+                    android:id="@+id/time_exercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/exercise_list_time_number_top"
+                    android:layout_marginRight="@dimen/exercise_list_time_number_right"
+                    android:text="0"
+                    android:textSize="33dp" />
+
+                <!--                운동시간 밑줄-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/exercise_list_time_underline_top"
+                    >
+                    <ImageView
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/line3" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/exercise_list_time_list_left"
+                    android:layout_marginTop="@dimen/exercise_list_time_list_top"
+                    android:text="운동 목록"
+                    android:textColor="#000000"
+                    android:textSize="16pt" />
+
+                <TextView
+                    android:id="@+id/first_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/exercise_list_time_list_left"
+                    android:layout_marginTop="@dimen/exercise_list_time_list_first_top"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="11pt" />
+
+                <TextView
+                    android:id="@+id/second_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/exercise_list_time_list_left"
+                    android:layout_marginTop="@dimen/exercise_list_time_list_second_top"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="11pt" />
+
+                <TextView
+                    android:id="@+id/third_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/exercise_list_time_list_left"
+                    android:layout_marginTop="@dimen/exercise_list_time_list_third_top"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="11pt" />
+
+                <!--                운동 시간 및 목록 소모 칼로리-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/exercise_list_kcal_top"
+                    android:gravity="right">
+                    <TextView
+                        android:id="@+id/number_exercise_kcal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="11pt" />
+
+                    <TextView
+                        android:id="@+id/exercise_kcal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/exercise_list_kcal_right"
+                        android:text="kcal 소모"
+                        android:textSize="11pt" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <!--            음식 프레임-->
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/food_height"
+                    android:background="@drawable/rectangle15" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/food_left"
+                    android:layout_marginTop="@dimen/food_top"
+                    android:background="@drawable/food" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/food_1_left"
+                    android:layout_marginTop="@dimen/food_1_top"
+                    android:background="@drawable/food1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/food_2_left"
+                    android:layout_marginTop="@dimen/food_2_top"
+                    android:background="@drawable/food2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/food_3_left"
+                    android:layout_marginTop="@dimen/food_3_top"
+                    android:background="@drawable/food3" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/food_4_left"
+                    android:layout_marginTop="@dimen/food_4_top"
+                    android:background="@drawable/food4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/food_text_left"
+                    android:layout_marginTop="@dimen/food_text_top"
+                    android:text="음식"
+                    android:textColor="#000000"
+                    android:textSize="35dp" />
+
+
+                <!--                음식 칼로리-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/food_kcal_top"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/number_food_kcal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/food_kcal_number_right"
+                        android:gravity="right"
+                        android:text="입력없음"
+                        android:textSize="40dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="/"
+                        android:textSize="42dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1000 kcal"
+                        android:textSize="38dp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/food_mini_menu_left"
+                    android:layout_marginTop="@dimen/food_mini_menu_top"
+                    android:layout_marginRight="@dimen/food_mini_menu_right"
+                    android:background="@drawable/rectangle8"
+                    android:gravity="center" />
+
+                <!--            아침, 점심, 저녁 음식 리스트-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/food_list_margin_top"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/food_time_list_left"
+                        android:text="아침"
+                        android:textColor="#000000"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/food_breakfast"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/food_list_left"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/food_time_list_left"
+                        android:text="점심"
+                        android:textColor="#000000"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/food_lunch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/food_list_left"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/food_time_list_left"
+                        android:text="저녁"
+                        android:textColor="#000000"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/food_dinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/food_list_left"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

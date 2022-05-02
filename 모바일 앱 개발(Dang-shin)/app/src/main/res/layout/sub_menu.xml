@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SubMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        개인 건강 정보 박스-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle23">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ellipse11"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="개인건강정보"
+                android:textSize="27dp"/>
+        </LinearLayout>
+
+<!--        몸무게, 키 박스 / weight_and_height -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/weight_and_height">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/human"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="몸무게 / 키"
+                android:textSize="26dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+<!--        혈압 박스 / blood_pressure-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/blood_pressure">
+<!--            혈압 아이콘-->
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7.5dp"
+                    android:layout_marginLeft="11dp"
+                    android:background="@drawable/stethoscope"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/stethoscope1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/stethoscope2"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginLeft="17dp"
+                    android:background="@drawable/stethoscope3"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/stethoscope4"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13.5dp"
+                    android:layout_marginLeft="24.5dp"
+                    android:background="@drawable/stethoscope5"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:background="@drawable/stethoscope6"/>
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="혈압"
+                android:textSize="26dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+<!--        앓고있는 지병 박스 / disease -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/disease">
+<!--            지병 아이콘-->
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/seak_human"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="26dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/seak_human1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="14dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/seak_human2"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="11dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/seak_human3"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="15.5dp"/>
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="앓고있는 지병"
+                android:textSize="27dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"/>
+        </LinearLayout>
+
+<!--        고객 서비스 박스-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle23">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ellipse11"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="고객 서비스"
+                android:textSize="27dp"/>
+        </LinearLayout>
+
+<!--        공지사항 박스 / notice -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/notice">
+            <!--            스피커 아이콘-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/speaker"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공지사항"
+                android:textSize="27dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"/>
+        </LinearLayout>
+
+<!--        자주 묻는 질문 박스 / question-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/question">
+            <!--            지병 아이콘-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/question"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자주 묻는 질문"
+                android:textSize="27dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+<!--        1:1 문의 박스 / inquire-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/inquire">
+            <!--            지병 아이콘-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ono"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="앓고있는 지병"
+                android:textSize="27dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"/>
+        </LinearLayout>
+
+<!--        정보 박스 / information-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/information">
+            <!--            지병 아이콘-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/info1"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정보"
+                android:textSize="27dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"/>
+        </LinearLayout>
+
+<!--        액세서리 관리 박스 / manage_blu-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/manage_blu">
+            <!--            지병 아이콘-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bluetooth"
+                android:layout_marginLeft="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="액세서리 관리"
+                android:textSize="27dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

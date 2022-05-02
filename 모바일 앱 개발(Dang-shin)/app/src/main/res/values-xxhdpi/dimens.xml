@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Pixel 5, 4a, 3a, 3a XL, 3, 2, 1 -->
+    <!--    메인메뉴 거리두기-->
+    <dimen name="menu_btn_left">8dp</dimen>
+    <dimen name="menu_btn_top">5dp</dimen>
+
+    <!--    날짜 텍스트 거리두기-->
+    <dimen name="date_margin_right">25dp</dimen>
+
+    <!--    클릭 버튼-->
+    <dimen name="click_button_left">10dp</dimen>
+    <dimen name="click_button_right">5dp</dimen>
+
+    <!--    혈당 아이콘-->
+    <dimen name="tear_left">44dp</dimen>
+    <dimen name="tear_top">20dp</dimen>
+
+    <!--    운동 아이콘-->
+    <dimen name="health_left">15dp</dimen>
+    <dimen name="health_top">35dp</dimen>
+
+    <!--    음식 아이콘-->
+    <dimen name="food_left_1">22.5dp</dimen>
+    <dimen name="food_top_1">65dp</dimen>
+    <dimen name="food_left_2">14dp</dimen>
+    <dimen name="food_top_2">65dp</dimen>
+    <dimen name="food_left_3">47.5dp</dimen>
+    <dimen name="food_top_3">30dp</dimen>
+    <dimen name="food_left_4">65dp</dimen>
+    <dimen name="food_top_4">35dp</dimen>
+    <dimen name="food_left_5">30dp</dimen>
+    <dimen name="food_top_5">35dp</dimen>
+
+    <!--    글씨 거리두기-->
+    <dimen name="name_of_blood_left">10dp</dimen>
+    <dimen name="name_of_food_right">5dp</dimen>
+
+    <!--    혈당 테이블-->
+    <dimen name="blood_left">12dp</dimen>
+    <dimen name="blood_top">10dp</dimen>
+    <dimen name="blood_text_left">53dp</dimen>
+    <dimen name="blood_text_top">15dp</dimen>
+    <dimen name="blood_text_mini_left">115dp</dimen>
+    <dimen name="blood_text_mini_top">27dp</dimen>
+    <dimen name="number_blood_right">15dp</dimen>
+    <dimen name="number_blood_left">30dp</dimen>
+    <dimen name="number_blood_top">59dp</dimen>
+
+    <!--    운동 테이블-->
+    <dimen name="exercise_top">8dp</dimen>
+    <dimen name="exercise_left">15dp</dimen>
+    <dimen name="exercise_text_left">95dp</dimen>
+    <dimen name="exercise_text_top">10dp</dimen>
+    <dimen name="exercise_first_box_top">65dp</dimen>
+    <dimen name="exercise_first_box_left">12dp</dimen>
+    <dimen name="exercise_first_box_right">15dp</dimen>
+    <dimen name="exercise_walk_number_top">80dp</dimen>
+    <dimen name="exercise_number_right">10dp</dimen>
+    <dimen name="exercise_5000_left">250dp</dimen>
+    <dimen name="exercise_5000_top">10dp</dimen>
+    <dimen name="exercise_walking_left">30dp</dimen>
+    <dimen name="exercise_walking_top">150dp</dimen>
+    <dimen name="exercise_kcal_number_right">10dp</dimen>
+    <dimen name="exercise_kcal_number_left">100dp</dimen>
+    <dimen name="exercise_kcal_number_top">162dp</dimen>
+    <dimen name="exercise_kcal_right">20dp</dimen>
+    <dimen name="exercise_kcal_top">160dp</dimen>
+
+    <dimen name="exercise_list_left">13dp</dimen>
+    <dimen name="exercise_list_top">235dp</dimen>
+    <dimen name="exercise_list_right">15dp</dimen>
+    <dimen name="exercise_list_time_top">245dp</dimen>
+    <dimen name="exercise_list_time_number_top">245dp</dimen>
+    <dimen name="exercise_list_time_number_right">118dp</dimen>
+    <dimen name="exercise_list_time_underline_left">95dp</dimen>
+    <dimen name="exercise_list_time_underline_top">286dp</dimen>
+    <dimen name="exercise_list_time_list_left">40dp</dimen>
+    <dimen name="exercise_list_time_list_top">295dp</dimen>
+    <dimen name="exercise_list_time_list_first_top">350dp</dimen>
+    <dimen name="exercise_list_time_list_second_top">390dp</dimen>
+    <dimen name="exercise_list_time_list_third_top">430dp</dimen>
+    <dimen name="exercise_list_kcal_right">25dp</dimen>
+    <dimen name="exercise_list_kcal_top">490dp</dimen>
+
+    <!--    음식 프레임-->
+    <dimen name="food_height">490dp</dimen>
+    <dimen name="food_top">40dp</dimen>
+    <dimen name="food_left">20dp</dimen>
+    <dimen name="food_1_top">40dp</dimen>
+    <dimen name="food_1_left">12dp</dimen>
+    <dimen name="food_2_top">10dp</dimen>
+    <dimen name="food_2_left">47dp</dimen>
+    <dimen name="food_3_top">15dp</dimen>
+    <dimen name="food_3_left">33dp</dimen>
+    <dimen name="food_4_top">15dp</dimen>
+    <dimen name="food_4_left">61dp</dimen>
+    <dimen name="food_text_left">95dp</dimen>
+    <dimen name="food_text_top">15dp</dimen>
+    <dimen name="food_kcal_top">60dp</dimen>
+    <dimen name="food_kcal_number_right">10dp</dimen>
+    <dimen name="food_kcal_number_left">30dp</dimen>
+    <dimen name="food_mini_menu_top">150dp</dimen>
+    <dimen name="food_mini_menu_left">10dp</dimen>
+    <dimen name="food_mini_menu_right">13dp</dimen>
+    <dimen name="food_list_margin_top">165dp</dimen>
+    <dimen name="food_list_left">40dp</dimen>
+    <dimen name="food_time_list_left">28dp</dimen>
+</resources>

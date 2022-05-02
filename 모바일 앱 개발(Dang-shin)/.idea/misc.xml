@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study/2022_LAB/Dang-shin/app/src/main/res/layout/activity_food_value.xml" value="0.338768115942029" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic___glu.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_add_1.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_back_background.xml" value="0.22083333333333333" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_back_vactor.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_blood.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_outline_close_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_rectangle_7.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_remote_1.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_vector.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_vector__1_.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/drawable/ic_vectors.xml" value="0.38229166666666664" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_food_value.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_glucose.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_glucose_bluetooth.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_glucose_calander.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_glucose_graph.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_glucose_plus.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_login2.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_main.xml" value="0.30027173913043476" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_main2.xml" value="0.2046875" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_privacy.xml" value="0.2046875" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_privacy_health.xml" value="0.29438405797101447" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_signin.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/activity_splash.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/array.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/food_layout.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/item.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/layout/list_item.xml" value="0.30570652173913043" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/mipmap-anydpi-v26/ic_back.xml" value="0.22083333333333333" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/mipmap-anydpi-v26/ic_back_round.xml" value="0.22083333333333333" />
+        <entry key="..\:/Study/2022_LAB/Dang/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22083333333333333" />
+        <entry key="..\:/Study/2022_Lab/Dang/app/src/main/res/layout/activity_food_select.xml" value="0.5086830680173662" />
+        <entry key="..\:/Study/2022_Lab/Dang/app/src/main/res/layout/activity_food_value.xml" value="0.3482789855072464" />
+        <entry key="..\:/Study/2022_Lab/Dang/app/src/main/res/layout/activity_main.xml" value="0.3482789855072464" />
+        <entry key="..\:/Study/2022_Lab/Dang/app/src/main/res/layout/activity_main2.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/drawable/edge.xml" value="0.165625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/drawable/ic___glu.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/drawable/ic_add_1.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/drawable/ic_outline_close_24.xml" value="0.165625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/drawable/some_id.xml" value="0.3764102564102564" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout-v31/activity_glucose.xml" value="0.1096311475409836" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout-v31/activity_login2.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout-v31/activity_splash.xml" value="0.2817028985507246" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout-v31/list_item.xml" value="0.1096311475409836" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/activity_fitness.xml" value="0.153515625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/activity_glucose.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/activity_login2.xml" value="0.18" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/activity_main.xml" value="0.13" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/activity_main2.xml" value="0.1600877192982456" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/activity_signin.xml" value="0.16" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/array.xml" value="0.2375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/food_layout.xml" value="0.153515625" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/item.xml" value="0.1453125" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/personalInfo.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/makerenew/app/src/main/res/layout/scan_activity.xml" value="0.153515625" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_food_select.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_food_value.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_glucose.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_glucose_bluetooth.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_glucose_calander.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_glucose_graph.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_glucose_plus.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_login2.xml" value="0.18" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/activity_privacy.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/array.xml" value="0.1875" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/array_exercise.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/dang_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/exercise_bike_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/exercise_input.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/exercise_list_registration.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/exercise_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/exercise_registration_small_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/exercise_walk_list.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/food_layout.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/item.xml" value="0.1875" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/list_item.xml" value="0.1875" />
+        <entry key="..\:/Users/ADMIN/android_app/Dang-shin/Dang-shin/app/src/main/res/layout/sub_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1096311475409836" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
